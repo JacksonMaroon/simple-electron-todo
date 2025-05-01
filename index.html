@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <title>Simple To-Do</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Simple To-Do</h1>
+    
+    <div class="task-input">
+      <input type="text" id="new-task" placeholder="Add a new task...">
+      <button id="add-task">Add Task</button>
+    </div>
+    
+    <div class="task-list-container">
+      <ul id="task-list">
+        <!-- Tasks will be dynamically added here -->
+      </ul>
+    </div>
+  </div>
+  
+  <script src="renderer.js"></script>
+</body>
+</html>

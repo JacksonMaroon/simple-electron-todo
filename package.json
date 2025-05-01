@@ -1,0 +1,14 @@
+{
+  "name": "simple-todo",
+  "version": "1.0.0",
+  "description": "A simple to-do list app for macOS",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.1.0"
+  }
+}
